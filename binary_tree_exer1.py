@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     
     numbers_tree = build_tree(alphabet)
-    print("Input numbers:",alphabet)
+    print("Characters:",alphabet)
     print("Min:",numbers_tree.find_min())
     print("Max:",numbers_tree.find_max())
     print("In order traversal:", numbers_tree.in_order_traversal())
