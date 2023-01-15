@@ -51,3 +51,6 @@ class BinarySearchTreeNode:
         return elements
     
     def delete(self, val):
+        if val < self.data:
+            if self.left:
+                self.left = self.left.delete(val)
