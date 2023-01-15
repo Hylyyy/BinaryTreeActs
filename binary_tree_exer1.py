@@ -95,13 +95,13 @@ if __name__ == '__main__':
     alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
 
     
-    numbers_tree = build_tree(alphabet)
+    alphabet_tree = build_tree(alphabet)
     print("Characters:",alphabet)
-    print("Min:",numbers_tree.find_min())
-    print("Max:",numbers_tree.find_max())
-    print("In order traversal:", numbers_tree.in_order_traversal())
-    print("Pre order traversal:", numbers_tree.pre_order_traversal())
-    print("Post order traversal:", numbers_tree.post_order_traversal())
+    print("Min:",alphabet_tree.find_min())
+    print("Max:",alphabet_tree.find_max())
+    print("In order traversal:", alphabet_tree.in_order_traversal())
+    print("Pre order traversal:", alphabet_tree.pre_order_traversal())
+    print("Post order traversal:", alphabet_tree.post_order_traversal())
 
 
 
