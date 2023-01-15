@@ -93,6 +93,13 @@ class BinarySearchTreeNode:
             root.add_child(elements[i])
 
         return root
+    
+    if __name__ == '__main__':
+        numbers = [17, 4, 1, 20, 9, 23, 18, 34]
+
+        numbers = [15,12,7,14,27,20,23,88 ]
+
+        numbers_tree = build_tree(numbers)
 
 
 
