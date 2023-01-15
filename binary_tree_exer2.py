@@ -82,3 +82,8 @@ class BinarySearchTreeNode:
         return self.left.find_min()
 
 
+def build_tree(elements):
+    print("Building tree with these elements:",elements)
+    root = BinarySearchTreeNode(elements[0])
+
+
