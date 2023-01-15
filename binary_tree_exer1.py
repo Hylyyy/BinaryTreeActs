@@ -99,7 +99,6 @@ if __name__ == '__main__':
     print("Input numbers:",alphabet)
     print("Min:",numbers_tree.find_min())
     print("Max:",numbers_tree.find_max())
-    print("Sum:", numbers_tree.calculate_sum())
     print("In order traversal:", numbers_tree.in_order_traversal())
     print("Pre order traversal:", numbers_tree.pre_order_traversal())
     print("Post order traversal:", numbers_tree.post_order_traversal())
