@@ -99,8 +99,8 @@ if __name__ == '__main__':
     alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
 
     
-    numbers_tree = build_tree(numbers)
-    print("Input numbers:",numbers)
+    numbers_tree = build_tree(alphabet)
+    print("Input numbers:",alphabet)
     print("Min:",numbers_tree.find_min())
     print("Max:",numbers_tree.find_max())
     print("Sum:", numbers_tree.calculate_sum())
