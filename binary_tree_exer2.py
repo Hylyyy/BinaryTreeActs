@@ -92,14 +92,14 @@ def build_tree(elements):
     return root
 
 if __name__ == '__main__':
-    numbers_tree = build_tree([17, 4, 1, 20, 9, 23, 18, 34])
-    numbers_tree.delete(20)
-    print("After deleting 20 ",numbers_tree.in_order_traversal())
+    alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
+    alphabet.delete("C")
+    print("After deleting 20 ",alphabet.in_order_traversal())
 
-    numbers_tree = build_tree([17, 4, 1, 20, 9, 23, 18, 34])
-    numbers_tree.delete(9)
-    print("After deleting 9 ",numbers_tree.in_order_traversal())
+    alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
+    alphabet.delete("E")
+    print("After deleting 9 ",alphabet.in_order_traversal())
 
-    numbers_tree = build_tree([17, 4, 1, 20, 9, 23, 18, 34])
-    numbers_tree.delete(17)
-    print("After deleting 17 ",numbers_tree.in_order_traversal())
+    alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
+    alphabet.delete("N")
+    print("After deleting 17 ",alphabet.in_order_traversal())
