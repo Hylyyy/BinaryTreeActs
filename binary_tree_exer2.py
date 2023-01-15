@@ -49,3 +49,5 @@ class BinarySearchTreeNode:
             elements += self.right.in_order_traversal()
 
         return elements
+    
+    def delete(self, val):
