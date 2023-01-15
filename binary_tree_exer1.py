@@ -98,8 +98,7 @@ def build_tree(elements):
 if __name__ == '__main__':
     alphabet = ["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"]
 
-    alphabet = [15,12,7,14,27,20,23,88 ]
-
+    
     numbers_tree = build_tree(numbers)
     print("Input numbers:",numbers)
     print("Min:",numbers_tree.find_min())
