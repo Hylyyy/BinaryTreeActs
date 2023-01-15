@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     
     alphabet_tree = build_tree(alphabet)
-    print("Characters:",alphabet)
+    print("\tCharacters:",alphabet)
     print("Min:",alphabet_tree.find_min())
     print("Max:",alphabet_tree.find_max())
     print("In order traversal:", alphabet_tree.in_order_traversal())
