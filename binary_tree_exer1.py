@@ -53,4 +53,5 @@ class BinarySearchTreeNode:
 
     def post_order_traversal(self):
         elements = []
-        
+        if self.left:
+            elements += self.left.post_order_traversal()
