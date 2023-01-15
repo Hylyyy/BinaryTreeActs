@@ -45,3 +45,8 @@ class BinarySearchTreeNode:
             elements += self.left.in_order_traversal()
 
         elements.append(self.data)
+
+        if self.right:
+            elements += self.right.in_order_traversal()
+
+        return elements
