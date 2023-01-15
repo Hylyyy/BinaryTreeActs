@@ -96,10 +96,8 @@ if __name__ == '__main__':
     alphabet.delete("C")
     print("After deleting C ===> ",alphabet.in_order_traversal())
 
-    alphabet = build_tree(["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"])
     alphabet.delete("E")
     print("After deleting E ===> ",alphabet.in_order_traversal())
 
-    alphabet = build_tree(["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"])
     alphabet.delete("N")
     print("After deleting N ===> ",alphabet.in_order_traversal())
