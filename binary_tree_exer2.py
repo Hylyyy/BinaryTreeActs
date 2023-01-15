@@ -94,10 +94,10 @@ def build_tree(elements):
 if __name__ == '__main__':
     alphabet = build_tree(["H", "Y", "D", "E", "E", "L", "Y", "N", "C", "P", "A", "L", "I", "S", "O", "C"])
     alphabet.delete("C")
-    print("After deleting C ===> ",alphabet.in_order_traversal())
+    print("\n\tAfter deleting C ===> ",alphabet.in_order_traversal())
 
     alphabet.delete("E")
-    print("After deleting E ===> ",alphabet.in_order_traversal())
+    print("\tAfter deleting E ===> ",alphabet.in_order_traversal())
 
     alphabet.delete("N")
-    print("After deleting N ===> ",alphabet.in_order_traversal())
+    print("\tAfter deleting N ===> ",alphabet.in_order_traversal())
